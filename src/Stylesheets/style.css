@@ -1,0 +1,88 @@
+.fromFriend {
+  background-color: #e2916e;
+}
+
+.fromMe {
+  background-color: #e2916e;
+}
+.fromFriend,
+.fromMe {
+  border-radius: 20px;
+  display: inline;
+  color: #20422a;
+  font-size: 20px;
+  padding: 10px;
+  font-family: Merienda;
+}
+
+.chat-screen {
+  padding: 20px;
+  max-width: 70%;
+  min-width: 70%;
+  margin: auto;
+  min-height: 470px;
+}
+
+.messageRight {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.messageLeft {
+  display: flex;
+  justify-content: flex-start;
+}
+.chat-username {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  font-family: Gamja Flower;
+}
+
+.heading {
+  color: #e2916e;
+  font-size: 20px;
+}
+.type-message-box {
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+  min-width: 70%;
+}
+.typeMessage {
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+}
+.typeMessage input {
+  background: #94c5a3;
+  color: white;
+  border-radius: 20px;
+  width: 100%;
+  border-bottom: none;
+}
+.typeMessage input:focus {
+  box-shadow: none;
+  border-bottom: none;
+}
+input::placeholder {
+  color: white;
+  font-family: Merienda;
+}
+.sendButton {
+  display: flex;
+  justify-content: flex-end;
+  display: block;
+  margin: 10px 3px !important;
+  background: #e2916e;
+  font: bold 20px Patrick Hand;
+  color: #20422a;
+  padding: 6px 50px !important;
+  text-shadow: none;
+  height: 38px !important;
+}
+
+.sendButton i {
+  font-size: 25px;
+  padding: 5px;
+}
